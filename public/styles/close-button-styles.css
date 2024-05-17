@@ -1,0 +1,15 @@
+.close__button {
+  background: none;
+  font-family: "radnika_next";
+  color: black;
+  font-size: 4rem;
+  border: 0;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+}
+
+.close__button:hover {
+  color: var(--red);
+  cursor: pointer;
+}

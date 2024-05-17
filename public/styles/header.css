@@ -1,0 +1,27 @@
+h1 {
+  font-size: 3rem;
+  margin-left: 2rem;
+  position: relative;
+  z-index: 2;
+  transform: skew(-7deg);
+  & a,
+  button {
+    text-decoration: none;
+    color: #4f439d;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.bar {
+  border-bottom: 10px solid var(--black, black);
+  display: flex;
+  /* grid-template-columns: auto 1fr; */
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-bar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-bottom: 10px solid var(--black, black);
+}

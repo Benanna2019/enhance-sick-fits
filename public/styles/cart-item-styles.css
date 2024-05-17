@@ -1,0 +1,37 @@
+.cart__item__styles {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--lightGrey);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  img {
+    margin-right: 1rem;
+  }
+  h3,
+  p {
+    margin: 0;
+  }
+}
+
+.x-html {
+  font-family: radnika_next;
+}
+
+.supreme__h3 {
+  color: #4f439d;
+  display: inline-block;
+  padding: 4px 5px;
+  transform: skew(-3deg);
+  margin: 0;
+  font-size: 4rem;
+}
+
+.big__button {
+  font-size: 3rem;
+  background: none;
+  font-family: radnika_next;
+  border: 0;
+  &:hover {
+    color: var(--red);
+    cursor: pointer;
+  }
+}

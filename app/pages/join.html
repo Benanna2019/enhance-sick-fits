@@ -1,0 +1,23 @@
+<my-layout>
+  <main class="flex flex-col align-items-center justify-content-center">
+    <form method="post" action="/join" class="font-body flex">
+      <label for="email">
+        <span class="font-bold">Please enter your email</span>
+        <text-input
+          type="email"
+          name="email"
+          placeholder="Your email"
+        ></text-input>
+      </label>
+      <label for="password">
+        <span class="font-bold">Please enter your password:</span>
+        <text-input
+          type="password"
+          name="password"
+          placeholder="Your password"
+        ></text-input>
+      </label>
+      <submit-button>Join</submit-button>
+    </form>
+  </main>
+</my-layout>
